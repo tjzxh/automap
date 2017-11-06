@@ -149,5 +149,4 @@ if __name__ == "__main__":
             else:
                 only_origin.make_map(vlog_file,argus.is_circle,argus.width,argus.max_vel_straight,argus.max_vel_curve,argus.visible,name,argus.vslam)
             if os.path.exists(vlog_file + '.pcmap'):
-                os.remove(vlog_file + '.pcmap')
-            print("You have generated hmap and rmap NOW!")            
+                os.remove(vlog_file + '.pcmap')           
